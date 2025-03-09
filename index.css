@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
      font-family: "Poppins",sans-serif;
@@ -100,3 +101,107 @@ background-color: rgb(15, 15, 163);
 
 }
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+     font-family: "Poppins",sans-serif;
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+}
+body{
+     height:100vh;
+     display: flex ; 
+     align-items : center;
+     justify-content: center;
+}
+.profile-id{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     max-width:370px;
+     width:100%;
+     background: #fff;
+     border-radius:24px;
+     padding:25px;
+     box-shadow: 0 5px 10px rgba(0,0,0,1);
+}
+.image {
+     position:relative;
+     height:150px;
+     width: 150px;
+     border-radius: 50%;
+     background-color: blue;
+     padding: 3px;
+     margin-bottom: 10px;
+     
+}
+.image .profile-img{
+     height:100%;
+     width:100%;
+     object-fit: cover;
+     border-radius: 50%;
+     border:3px solid white;
+     object-position: center top;
+}
+
+.profile-id .text-data{
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     color: #333;
+}
+.text-data .name{
+     font-size: 22px;
+     font-weight:500;
+
+}
+.text-data .job{
+     font-size: 15px;
+     font-weight:500;
+}
+.profile-id .media-btn{
+     display:flex;
+     margin-top:15px;
+     align-items: center;
+     
+}
+ .media-btn .link{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     color:#fff;
+     font-size: 18px;
+     width:34px;
+     height:34px;
+     margin: 0 8px;
+     border-radius:50%;
+     background-color: rgb(3, 8, 106);
+     text-decoration:none;
+     cursor: pointer;
+}
+.profile-id .button{
+     display:flex;
+     align-items:center;
+     margin-top: 10px;
+    
+     
+}
+.button .btn{
+     border:none;
+     padding:8px 24px;
+     font-weight: 400;
+     font-size: 14px;
+     margin:0 10px;
+     border-radius: 24px;
+     background-color: rgb(42, 72, 194);
+     color: azure;
+     cursor: pointer;
+     transition: all 0.3s ease;
+}
+.button .btn:hover{
+background-color: rgb(15, 15, 163);
+
+}
+
+>>>>>>> 9d7e86da75ee2873527ffc525cc579a6ce392399
